@@ -4,6 +4,14 @@
 	  <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
     {% endif %}
 
+    {% if site.twitter %}
+    <a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
+    {% endif %}
+
+    {% if site.instagram %}
+    <a href="http://instagram.com/{{ site.instagram }}"><i class="fa fa-instagram"></i></a>
+    {% endif %}
+
     {% if site.github %}
 	  <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
     {% endif %}
@@ -16,12 +24,5 @@
 	  <a href="http://stackoverflow.com/{{ site.stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
     {% endif %}
 
-    {% if site.twitter %}
-    <a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a>
-    {% endif %}
-
-    {% if site.instagram %}
-    <a href="http://instagram.com/{{ site.instagram }}"><i class="fa fa-instagram"></i></a>
-    {% endif %}
 	</h4>
 </div>
