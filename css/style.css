@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,900;1,400;1,900&family=Nunito:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Estilos Gerais */
+h1, h2, h3, h4, li, a {
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: #fafafa;
+}
+
+/* .container {
+    max-width: 60rem;
+} */
+
+/* Menu */
+.home {
+    background-color: #29272a;
+    min-height: 100vh;
+}
+
+.home__menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home__menu li {
+    margin: 0px 10px;
+}
+
+.home__menu li a {
+    padding: 10px;
+}
+
+/* Sobre */
+.sobre {
+    background-color: #774069;
+    min-height: 100vh;
+}
+
+/* Live */
+.live {
+    background-color: #29272a;
+    min-height: 100vh;
+}
+
+.live__card {
+    max-width: 60rem;
+    background-color: #774069;
+}
+
+/* Projetos */
+.projetos {
+    background-color: #29272a;
+    min-height: 100vh;
+}
+
+.projetos__card {
+    border: 1px solid #774069;
+}
+
+/* Contato */
+.contato {
+    background-color: #774069;
+    min-height: 100vh;
+}
+
+.contato__card {
+    background-color: #29272a;
+}
