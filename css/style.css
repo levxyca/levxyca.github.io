@@ -139,18 +139,49 @@ ion-icon {
 .live {
     background-color: #29272a;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .live__card {
     max-width: 60rem;
+    max-height: 30rem;
     background-color: #774069;
     display: flex;
+    align-items: center;
+    border-radius: 0.313rem;
+    padding: 3.75rem;
+}
+.live__card p {
+    max-width: 80%;
+    margin-left: 3.125rem;
+    text-align: inherit;
+    line-height: 2em;
+}
+
+.live__card-button {
+    margin: 3.125rem 0rem 0rem 3.125rem;
+    background-color: #774069;
+    border: 1px solid #fafafa;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+}
+
+.live__card-button a {
+    padding: 0.625rem;
+}
+
+.live__img img {
+    transform: rotate(4deg);
 }
 
 /* Projetos */
 .projetos {
     background-color: #29272a;
     min-height: 100vh;
+    border-top: 1px solid #774069;
+    border-bottom: 1px solid #774069;
 }
 
 .projetos__card {
