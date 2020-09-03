@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,900;1,400;1,900&family=Nunito:ital,wght@0,400;0,600;1,400&display=swap');
 
 /* Estilos Gerais */
-h1, h2, h3, h4, li, a {
+h1, h2, h3, h4, li, a, button {
     font-family: 'Montserrat', sans-serif;
     color: #fafafa;
 }
@@ -11,9 +11,21 @@ p {
     color: #fafafa;
 }
 
-/* .container {
-    max-width: 60rem;
-} */
+h1 {
+    font-size: 2.375rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    padding: 1.875rem 0rem 1.875rem 3.125rem;
+}
+
+ion-icon {
+    font-size: 2rem;
+}
 
 /* Menu */
 .home {
@@ -45,6 +57,12 @@ p {
     min-height: 100vh;
 }
 
+.home__perfil h2 {
+    margin-top: -0.67rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
 .home__social {
     display: flex;
     flex-wrap: wrap;
@@ -65,13 +83,56 @@ p {
     display: flex;
 }
 
+.sobre__descricao p {
+    max-width: 80%;
+    margin-left: 3.125rem;
+    text-align: inherit;
+    line-height: 2em;
+}
+
 .sobre__skills {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 3.125rem;
+    margin-top: 1.25rem;
+}
+
+.sobre__skills li {
+    padding: 0rem 0.625rem;
+}
+
+.sobre__skills li:first-child {
+    padding-left: 0rem;
+}
+
+.sobre__button {
+    margin: 3.125rem 0rem 0rem 3.125rem;
+    background-color: #774069;
+    border: 1px solid #fafafa;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+}
+
+.sobre__button a {
+    padding: 0.625rem;
 }
 
 .sobre__interesses {
     min-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.sobre__interesses li {
+    display: flex;
+    align-items: center;
+    letter-spacing: .1em;
+}
+
+.sobre__interesses-margin {
+    margin-right: 0.625rem;
 }
 
 /* Live */
