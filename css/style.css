@@ -24,6 +24,12 @@ h2 {
     padding: 1.875rem 0rem 1.875rem 3.125rem;
 }
 
+h3 {
+    text-align: center;
+    margin: 0.625rem 0rem;
+    text-transform: uppercase;
+}
+
 ion-icon {
     font-size: 2rem;
 }
@@ -47,6 +53,8 @@ ion-icon {
 
 .home__menu li a {
     padding: 0.625rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }
 
 .home__perfil {
@@ -62,6 +70,7 @@ ion-icon {
     margin-top: -0.67rem;
     font-size: 1rem;
     font-weight: normal;
+    padding-left: 0rem; 
 }
 
 .home__social {
@@ -82,6 +91,12 @@ ion-icon {
     background-color: #774069;
     min-height: 100vh;
     display: flex;
+}
+
+.sobre__descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sobre__descricao p {
@@ -112,6 +127,7 @@ ion-icon {
     border: 1px solid #fafafa;
     border-radius: 0.313rem;
     padding: 0.625rem;
+    max-width: 18.75rem;
 }
 
 .sobre__button a {
@@ -148,7 +164,7 @@ ion-icon {
 .live__card {
     max-width: 60rem;
     max-height: 30rem;
-    background-color: #774069;
+    background-color: #4c3a69;
     display: flex;
     align-items: center;
     border-radius: 0.313rem;
@@ -157,13 +173,13 @@ ion-icon {
 .live__card p {
     max-width: 80%;
     margin-left: 3.125rem;
-    text-align: inherit;
+    text-align: justify;
     line-height: 2em;
 }
 
 .live__card-button {
     margin: 3.125rem 0rem 0rem 3.125rem;
-    background-color: #774069;
+    background-color: #4c3a69;
     border: 1px solid #fafafa;
     border-radius: 0.313rem;
     padding: 0.625rem;
@@ -187,10 +203,41 @@ ion-icon {
 
 .projetos__card {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
 }
 
 .projetos__card-item {
     border: 1px solid #774069;
+    margin: 0px 20px;
+    border-radius: 5px;
+}
+
+.projetos__card-item p {
+    text-align: justify;
+    margin: 0rem 1.25rem;
+}
+
+.projetos button, .projetos__card-item button {
+    margin: 1rem 0rem 1rem 0rem;
+    background-color: #29272a;
+    border: 1px solid #fafafa;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+}
+
+.projetos button a, .projetos__card-item button a {
+    padding: 0.625rem;
+}
+
+.projetos__card-button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projetos__button {
+    margin: -10% 40% !important;
 }
 
 /* Contato */
