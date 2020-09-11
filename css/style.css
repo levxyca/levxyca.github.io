@@ -101,7 +101,6 @@ ion-icon {
 
 .sobre__descricao p {
     max-width: 80%;
-    margin-left: 3.125rem;
     text-align: inherit;
     line-height: 2em;
 }
@@ -109,7 +108,6 @@ ion-icon {
 .sobre__skills {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 3.125rem;
     margin-top: 1.25rem;
 }
 
@@ -162,7 +160,7 @@ ion-icon {
 }
 
 .live__card {
-    max-width: 60rem;
+    max-width: 70rem;
     max-height: 30rem;
     background-color: #4c3a69;
     display: flex;
@@ -172,7 +170,6 @@ ion-icon {
 }
 .live__card p {
     max-width: 80%;
-    margin-left: 3.125rem;
     text-align: justify;
     line-height: 2em;
 }
@@ -189,8 +186,9 @@ ion-icon {
     padding: 0.625rem;
 }
 
-.live__img img {
-    transform: rotate(4deg);
+.live__icon {
+    font-size: 200px;
+    color: #fafafa;
 }
 
 /* Projetos */
