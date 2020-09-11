@@ -242,10 +242,21 @@ ion-icon {
 
 /* Contato */
 .contato {
-    background-color: #774069;
+    background-color: #4c3a69;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.contato__card {
-    background-color: #29272a;
+.contato h2, p, ul {
+    padding: 1.5rem 0rem 0rem 3.125rem;
+}
+
+.contato__social {
+    display: flex;
+}
+
+.contato__social li {
+    margin-right: 1rem;
 }
