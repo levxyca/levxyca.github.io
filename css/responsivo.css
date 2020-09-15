@@ -1,0 +1,27 @@
+@media (min-width: 300px) and (max-width: 960px) {
+    /* Home */
+    .home__menu {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .home__menu li a {
+        font-size: 0.8rem;
+    }
+
+    .home__perfil h1 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .home__perfil h2 {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    .home__social li {
+        margin: 0.1rem;
+    }
+    
+    .home__social li a {
+        padding: 0.938rem 0.5rem;
+    }
+}
