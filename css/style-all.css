@@ -415,6 +415,11 @@ ion-icon {
     font-size: 2rem;
 }
 
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 /* Menu */
 .home {
     background-color: #29272a;
@@ -632,6 +637,7 @@ ion-icon {
         flex-wrap: wrap;
         margin: 1rem 0rem;
         padding: 0rem;
+        margin: 0 auto;
     }
     .live__card p {
         text-align: inherit;
