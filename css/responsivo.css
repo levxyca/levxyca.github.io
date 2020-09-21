@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width: 960px) {
+@media (min-width: 300px) and (max-width: 720px) {
     h2{
         font-size: 3rem;
     }
@@ -10,7 +10,7 @@
         justify-content: center;
         flex-wrap: nowrap;
     }
-    .home__menu li a {
+    .home__menu a {
         font-size: 0.8rem;
     }
 
@@ -23,12 +23,10 @@
         text-align: center;
         font-size: 0.9rem;
     }
-    .home__social li {
-        margin: 0.1rem;
-    }
     
-    .home__social li a {
+    .home__social a {
         padding: 0.938rem 0.5rem;
+        margin: 0.1rem;
     }
     /* Sobre */
     .sobre__interesses {
