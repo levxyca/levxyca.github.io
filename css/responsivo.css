@@ -24,4 +24,16 @@
     .home__social li a {
         padding: 0.938rem 0.5rem;
     }
+    /* Sobre */
+    .sobre__descricao p {
+        max-width: 90%;
+    }
+    .sobre__interesses {
+        display: none;
+    }
+    /* Live */
+    .live {
+        flex-wrap: wrap;
+    }
+    /* Contato */
 }
