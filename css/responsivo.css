@@ -1,4 +1,10 @@
 @media (min-width: 300px) and (max-width: 960px) {
+    h2{
+        font-size: 3rem;
+    }
+    .contato h2, p, ul, h2 {
+        padding: 1.5rem 0rem 1rem 2rem;
+    }
     /* Home */
     .home__menu {
         justify-content: center;
@@ -25,15 +31,34 @@
         padding: 0.938rem 0.5rem;
     }
     /* Sobre */
-    .sobre__descricao p {
-        max-width: 90%;
-    }
     .sobre__interesses {
         display: none;
     }
-    /* Live */
-    .live {
+    .sobre__skills {
+        display: flex;
         flex-wrap: wrap;
+        margin: 0rem 0rem 1rem 0rem;
+    }
+    /* Live */
+    .live__card {
+        max-width: 90%;
+        max-height: 90%;
+        flex-wrap: wrap;
+        margin: 1rem 0rem;
+        padding: 0rem;
+    }
+    .live__card p {
+        text-align: inherit;
+        line-height: 2em;
+    }
+    .live__icon {
+        display: none;
+    }
+    .live__card-button {
+        margin: 2rem 0rem 1rem 3.125rem;
     }
     /* Contato */
+    .contato a {
+        font-size: 0.9rem;
+    }
 }

@@ -191,53 +191,6 @@ ion-icon {
     color: #fafafa;
 }
 
-/* Projetos */
-.projetos {
-    background-color: #29272a;
-    min-height: 100vh;
-    border-top: 1px solid #774069;
-    border-bottom: 1px solid #774069;
-}
-
-.projetos__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
-}
-
-.projetos__card-item {
-    border: 1px solid #774069;
-    margin: 0px 20px;
-    border-radius: 5px;
-}
-
-.projetos__card-item p {
-    text-align: justify;
-    margin: 0rem 1.25rem;
-}
-
-.projetos button, .projetos__card-item button {
-    margin: 1rem 0rem 1rem 0rem;
-    background-color: #29272a;
-    border: 1px solid #fafafa;
-    border-radius: 0.313rem;
-    padding: 0.625rem;
-}
-
-.projetos button a, .projetos__card-item button a {
-    padding: 0.625rem;
-}
-
-.projetos__card-button {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.projetos__button {
-    margin: -10% 40% !important;
-}
-
 /* Contato */
 .contato {
     background-color: #4c3a69;
