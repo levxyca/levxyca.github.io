@@ -509,7 +509,7 @@ ion-icon {
 }
 
 .sobre__button a {
-    padding: 0.625rem;
+    padding: 0.625rem 4.5rem 0.625rem 4.5rem;
 }
 
 .sobre__interesses {
