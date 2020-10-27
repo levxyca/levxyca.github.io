@@ -591,6 +591,8 @@ ion-icon {
 .contato__social li {
     margin-right: 1rem;
 }
+
+/* Responsivo */
 @media (min-width: 300px) and (max-width: 720px) {
     h2{
         font-size: 3rem;
