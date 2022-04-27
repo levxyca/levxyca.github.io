@@ -111,6 +111,10 @@ body {
   font-size: 1.5rem;
 }
 
+.email a{
+  letter-spacing: .1em;
+}
+
 .contato {
   display: flex;
   justify-content: center;
