@@ -128,7 +128,7 @@ body {
   border-top: 1px solid var(--details);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
   .container {
     margin: 0 25px;
   }
