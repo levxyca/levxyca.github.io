@@ -29,7 +29,7 @@ body {
 
 .hero {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
 }
@@ -99,8 +99,12 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   border-top: 1px solid var(--details);
+}
+
+.sobre div {
+  margin-top: 20px;
 }
 
 .title {
@@ -124,7 +128,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   border-top: 1px solid var(--details);
 }
 
