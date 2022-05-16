@@ -124,6 +124,41 @@ body {
   letter-spacing: 0.1em;
 }
 
+.blog {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  border-top: 1px solid var(--details);
+}
+
+.blog__container-externo {
+  display: flex;
+  justify-content: center;
+}
+
+.blog__title {
+  margin: 10px 0;
+  margin-right: 100px;
+}
+
+.blog__post {
+  margin: 10px 0;
+  border: 2px solid var(--brand-color);
+}
+
+.blog__post-title {
+  padding: 15px;
+}
+
+.blog__post-description {
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.blog__post-date {
+  padding: 15px;
+}
+
 .contato {
   display: flex;
   justify-content: center;
@@ -135,5 +170,15 @@ body {
 @media (max-width: 1250px) {
   .container {
     margin: 0 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog {
+    align-items: center;
+  }
+
+  .blog__container-externo {
+    flex-direction: column;
   }
 }
