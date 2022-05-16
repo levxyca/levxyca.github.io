@@ -1,1 +1,3 @@
-# 🖱️ Meu site pessoal
+# 🖱️ levxyca.com
+
+Website desenvolvido usando HTML, CSS e JavaScript.
